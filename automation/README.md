@@ -38,4 +38,4 @@ The repository contains reviewable copies of the runner. Task Scheduler uses cop
 
 ## Validation performed at setup
 
-The first edition's original pages and publisher dates were checked. Script syntax, manifest validation, Git synchronization/publication, and scheduled process startup are checked during setup. A check of an already-current edition does not exercise future AI generation end to end.
+The first edition's original pages and publisher dates were checked. Script syntax, manifest validation, Git synchronization/publication, and scheduled process startup passed. A separate scheduled Codex check successfully performed live web research using the same account and sandbox settings. A check of an already-current edition and a research connectivity check do not exercise future content generation and publication end to end.

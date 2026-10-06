@@ -16,6 +16,7 @@ try {
     $configPath=Join-Path $stateRoot 'config.json'
     [IO.File]::WriteAllText($configPath,($packet.config | ConvertTo-Json),$utf8)
     & (Join-Path $stateRoot 'run-magazine-update.ps1') -ConfigPath $configPath
+    if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
     exit 0
 } catch {
     if (Test-Path -LiteralPath $stateRoot) {
