@@ -14,7 +14,7 @@ Every other Monday at **9:00 a.m. America/Chicago**, starting **2026-10-19**. Th
 
 Automatic runs use Windows Task Scheduler and the signed-in Codex CLI on this PC. The computer must be powered on, connected to the internet, and your Windows account signed in. Missed starts are allowed to run later. This is a local scheduled task, not a Codex app automation or GitHub-hosted workflow.
 
-The task reads recent magazine articles, writes original notes, checks the article limit and duplicate links, and commits and pushes only magazine updates to this private repository. Existing editions are preserved. Logs stay on this PC.
+The task reads recent magazine articles, writes original notes, checks the article limit and duplicate links, and commits and pushes only magazine updates to this public repository. Existing editions are preserved. Logs stay on this PC.
 
 ## Selection rules
 
