@@ -12,6 +12,7 @@ A personal study library for **yuxinwu2022**, spanning introductory foundations,
 4. [Paper index](papers/index.md): 15 individually summarized papers.
 5. [Eight-week reading plan](study/learning-plan.md): a manageable route through the collection.
 6. [Personal reading log](study/reading-log.md) and [paper-note template](templates/paper-note.md).
+7. [Biweekly magazine updates](magazines/README.md): up to four recent articles per dated edition.
 
 **Recommended first trio:** [ACT](papers/06-act-aloha.md) for imitation learning, [LIO-SAM](papers/03-lio-sam.md) for estimation, and [sampling MPC](papers/02-mppi-control.md) for control. If their prerequisites are unfamiliar, begin with the course guide.
 
@@ -33,4 +34,4 @@ Coverage includes planning, control, SLAM, perception, manipulation, imitation l
 
 [Source and verification notes](resources/source-notes.md) explain how references were checked. The repository stores resource links and original study summaries; full papers, books, model weights, and datasets remain with their original publishers or authors.
 
-Exercises are proposals for your study, not experiments already run. No recurring updates have been scheduled.
+Exercises are proposals for your study, not experiments already run. Magazine updates have a local biweekly schedule; see the magazine guide for its operating requirements.

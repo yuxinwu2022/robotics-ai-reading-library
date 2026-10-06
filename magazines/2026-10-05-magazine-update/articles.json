@@ -1,0 +1,56 @@
+{
+  "edition_date": "2026-10-05",
+  "period_start": "2026-09-22",
+  "period_end": "2026-10-05",
+  "timezone": "America/Chicago",
+  "articles": [
+    {
+      "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
+      "url": "https://spectrum.ieee.org/robust-robot-hand",
+      "published_date": "2026-10-01",
+      "note": "01-atlas-hand.md",
+      "topics": [
+        "robot hardware",
+        "manipulation",
+        "design"
+      ],
+      "publication": "IEEE Spectrum"
+    },
+    {
+      "title": "Generative AI Gives Spacecraft the Autonomy Engineers Once Feared",
+      "url": "https://spectrum.ieee.org/generative-ai-in-space-exploration",
+      "published_date": "2026-09-28",
+      "note": "02-spacecraft-autonomy.md",
+      "topics": [
+        "autonomy",
+        "planning",
+        "distribution shift"
+      ],
+      "publication": "IEEE Spectrum"
+    },
+    {
+      "title": "Attempts to Keep Humans in the AI Loop May Actually Push Them Out",
+      "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
+      "published_date": "2026-10-05",
+      "note": "03-human-oversight.md",
+      "topics": [
+        "AI",
+        "human–robot interaction",
+        "evaluation"
+      ],
+      "publication": "IEEE Spectrum"
+    },
+    {
+      "title": "Why Read a Research Paper When You Can Turn It Into an AI Agent?",
+      "url": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
+      "published_date": "2026-09-22",
+      "note": "04-executable-research.md",
+      "topics": [
+        "AI",
+        "reproducibility",
+        "research workflow"
+      ],
+      "publication": "IEEE Spectrum"
+    }
+  ]
+}
