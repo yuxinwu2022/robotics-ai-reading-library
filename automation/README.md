@@ -8,7 +8,7 @@
 - **Publication:** direct commits to this repository's main branch, authorized by the user.
 - **Maximum:** four magazine articles per edition, enforced against articles.json and note files.
 - **Runner:** run-magazine-update.ps1; research instructions: magazine-update-prompt.md.
-- **State and logs on this PC:** %LOCALAPPDATA%\RoboticsAiMagazineAutomation.
+- **State and logs on this PC:** %LOCALAPPDATA%\RoboticsAiMagazineScheduled.
 - **Git checkout:** an independent clone inside the state directory, preserving your normal workspace.
 - **Task runs only while this Windows user is logged on.** Internet access and existing Codex / GitHub Desktop sign-ins are needed; the Codex desktop app itself need not remain open.
 - **Missed start:** run later when possible. The runner creates at most one edition for the current two-week schedule slot.
@@ -31,6 +31,8 @@ Previously committed editions are not rewritten. If generated changes are invali
 Open Windows Task Scheduler and find the task by its name to run, disable, or inspect it. A successful task has Last Run Result 0. Logs distinguish a published edition from a check that found no edition due.
 
 The config.json file in the local state directory stores paths and repository metadata, never tokens. GitHub authentication reads the specific signed-in GitHub Desktop account from Windows Credential Manager and passes authentication only to the Git operation; it is cleared before Codex runs.
+
+The task action contains a compressed copy of the reviewed scripts and configuration. The bootstrap script installs those files from within the scheduled process so they can be accessed under the Windows account that runs the task. The payload contains no authentication secrets.
 
 The repository contains reviewable copies of the runner. Task Scheduler uses copies in the local state directory. Changing the repository scripts alone does not alter the installed task.
 
